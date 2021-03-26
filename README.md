@@ -136,12 +136,12 @@ This ELK server is configured to monitor the following machines:
   DVWA 3: 10.0.0.7
 
 We have installed the following Beats on these machines:
-- Filebeat and Metricbeat
+- **Filebeat and Metricbeat**
 
 These Beats allow us to collect the following information from each machine:
-- Filebeat: Monitors the log files or locations that you specify, collecting log events including which files have changed and when. It is forwarded to either Elasticsearch or Logstash
+- **Filebeat: Monitors the log files or locations that you specify, collecting log events including which files have changed and when. It is forwarded to either Elasticsearch or Logstash**
 
-  Metrictbeat: Periodically collect metrics from the operating system and from services running on the server. The statistics that it collects is forwarded to either Elasticsearch or Logstash.
+  **Metrictbeat: Periodically collect metrics from the operating system and from services running on the server. The statistics that it collects is forwarded to either Elasticsearch or Logstash.**
 
 ![FILEBEAT](https://github.com/SigmaRellik/Project-1/blob/2fadeac884df00fab42cebe16f5e386acbf0379e/Linux/Filebeat.png)
 ![METRICTBEAT](https://github.com/SigmaRellik/Project-1/blob/2fadeac884df00fab42cebe16f5e386acbf0379e/Linux/Metrictbeat.png)
@@ -155,8 +155,8 @@ SSH into the control node and follow the steps below:
 - Run the playbook, and navigate to **virtual machines** to check that the installation worked as expected.
 
 _TODO: Answer the following questions to fill in the blanks:_
-- _Which file is the playbook? Where do you copy it?_ YML File and ./etc/ansible
-- _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_ host file located in ./etc/ansible and to specify you link IP to specific group such as [webservers] or [elk] 
-- _Which URL do you navigate to in order to check that the ELK server is running?_ ELK server public IP
+- _Which file is the playbook? Where do you copy it?_ **YML File and ./etc/ansible**
+- _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_ **host file located in ./etc/ansible and to specify you link IP to specific group such as [webservers] or [elk]**
+- _Which URL do you navigate to in order to check that the ELK server is running?_ **ELK server public IP**
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
