@@ -6,7 +6,7 @@ The files in this repository were used to configure the network depicted below.
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the **YML** file may be used to install only certain pieces of it, such as Filebeat.
 
-![ELK PLAYBOOK](https://github.com/SigmaRellik/Project-1/blob/b631ca648d6a6da6865677e47e6aa91a79dc79ab/Ansible/install-elk.yml)
+https://github.com/SigmaRellik/Project-1/blob/b631ca648d6a6da6865677e47e6aa91a79dc79ab/Ansible/install-elk.yml
   
 This document contains the following details:
 - Description of the Topology
