@@ -91,6 +91,9 @@ These Beats allow us to collect the following information from each machine:
 
   Metrictbeat: Periodically collect metrics from the operating system and from services running on the server. The statistics that it collects is forwarded to either Elasticsearch or Logstash.
 
+![FILEBEAT](https://github.com/SigmaRellik/Project-1/blob/2fadeac884df00fab42cebe16f5e386acbf0379e/Linux/Filebeat.png)
+![METRICTBEAT](https://github.com/SigmaRellik/Project-1/blob/2fadeac884df00fab42cebe16f5e386acbf0379e/Linux/Metrictbeat.png)
+
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
